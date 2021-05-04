@@ -18,7 +18,7 @@ weatherForm.addEventListener('submit', function(e){
             }
             else{
                 message2.textContent = ''
-                message1.textContent = `The temperature is ${data.temperature} in ${data.location}. It feels like ${data.feelslike} degrees. The weather conditions are ${data.conditions}`
+                message1.textContent = `The temperature is ${data.temperature} in ${data.location}. It feels like ${data.feelslike} degrees. The conditions are ${data.conditions}`
             }
         })
 
